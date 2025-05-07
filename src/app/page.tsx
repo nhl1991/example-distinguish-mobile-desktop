@@ -11,8 +11,7 @@ export default function Home() {
       <div className="w-max h-max p-4"><ClientSideSecond /></div>
       <div className="w-max h-max p-4"><ServerSide /></div>
       <pre>
-        Open the browser's development tool and
-
+        Open the browser development tool and swap the viewport.
       </pre>
     </div>
   );
