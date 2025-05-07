@@ -3,8 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 
 
 export async function GET(
-    req: NextRequest,
-    res: NextResponse
+    req: NextRequest
 ) {
     const userAgent = req.headers.get('user-agent') || '';
     const isMobile = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);

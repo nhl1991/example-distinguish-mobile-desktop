@@ -23,7 +23,7 @@ export default function ClientSideSecond() {
   return (
     <div>
         <h1>CLIENT-COMPONENT 2</h1>
-        <p className='text-sm'>Use the <b>'resize' event listener</b> and <b>window.navigator</b>.</p>
+        <p className='text-sm'>Use the <b>&apos;resize&apos; event listener</b> and <b>window.navigator</b>.</p>
         
         <div className="flex items-center justify-center p-2">
             <p className="p-2">{userAgent ? 'MOBILE' : 'DESKTOP'} </p>
